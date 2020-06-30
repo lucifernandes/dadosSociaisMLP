@@ -1,0 +1,31 @@
+Variáveis utilizadas:
+
+'idade1' (Valores literais de idade)
+'sexo'
+'p41aa', 'p41ab', ..., 'p41ap' (Sentenças do 1º bloco do questionário - Medo do crime - apenas referente as respostas sim ou não)
+'p42a', 'p42b', ..., 'p42p' (Sentenças do 2º bloco do questionário - Propensão ao crime)
+'p43a', 'p43c', ..., 'p43p' (Sentenças do 3º bloco do questionário - Vitimização)
+'INVp45a', 'INVp45b', ... , ''INVp45q (Sentenças do 4º bloco do questionário - Autoritarismo)
+'cor' (Questão 68)
+'carro' (Questão 69)
+'empreg' (Questão 70)
+'maqlav' (Questão 71)
+'dvd' (Questão 72)
+'banhe' (Questão 73)
+'gelad' (Questão 74)
+'freezer' (Questão 75)
+'comput' (Questão 76)
+'lavlou' (Questão 77)
+'microon' (Questão 78)
+'motocic'  (Questão 79)
+'secadora' (Questão 80)
+'escola' (Questão 81)
+'renda' (Questão 82)
+'IndAuto' (Índice de Autoritarismo - essa variável é adicionada a base durante a execução do algoritmo)
+
+OBS:
+Por enquanto eliminei as variáveis 'p41ac', 'p42c', 'p43c', pois apresentam a alternativa de ter ou não automóvel.
+
+Nas questões de 69 à 82, a opção de "Não possui" estava como um resultado nulo, então modifiquei para o valor 0.
+
+'IndAuto' terá valores 1 ou 2: para valores abaixo ou igual a média dos índices, recebem valor 1, para valores acima da média dos índices, recebem valor 2.

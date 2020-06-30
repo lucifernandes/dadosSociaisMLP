@@ -1,0 +1,8 @@
+1 camada:
+tansig - 0.2396 0.4380 
+logsig - 0.2584 0.4855
+purelin - 0.2483 .4898
+
+2 camadas:
+tansig - 0.2327 0.4323
+logsig - 0.2511 0.4900
